@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> assigment 3.2 </title>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"> 
+    <link href="https://fonts.googleapis.com/css?family=Jomolhari|Spectral&display=swap" rel="stylesheet"> 
+    <style> 
+body{
+    padding:15px;
+}
+
+[class*="col-"] {
+    float: left;
+    padding:6px;
+  }
+  
+.color{
+    color:white;
+}
+.nav{
+    height:50px;
+    background-color:rgb(107, 110, 106);
+}
+
+ul{
+    
+    list-style-type:none;
+}
+li{ font-size:12px;
+    top:10px;
+    text-transform:uppercase;
+}
+
+a{ 
+    text-decoration:none ;
+
+}
+
+
+.imgbanner{
+    font-family: 'Jomolhari', serif;
+    font-family: 'Spectral', serif
+}
+img{
+    max-width:100%;
+    height: auto;
+}
+
+#a01{
+    text-decoration:underline;
+}
+@media only screen and (min-width:768px)
+{
+    .banner{
+        border:1px solid rgb(239,239,239);
+    }
+}
+@media only screen and (min-width:992px){
+    .color{
+    color:black;
+     }
+     .nav{
+    height:70px;
+    background-color:white;}
+    
+    .banner{
+    color:white;
+    background-image: url("../img/banner01.png");
+    background-repeat: no-repeat;
+    background-size:cover ;
+    min-height:500px;}
+    .imgbanner{
+    font-family: 'Jomolhari', serif;
+    font-family: 'Spectral', serif
+    }
+
+    .imgbanner1{
+    position:relative;
+    top:130px;
+    left:5%;
+   }
+    .imgbanner2{
+    position:relative;
+    top:110px;
+    left:5%;
+    }
+     #section{
+         background-color:rgb(239,239,239);
+         padding-left:1%;
+     }
+     #footer{
+         background-color: rgb(249,249,249);
+         padding-left:1%;
+     }
+    
+#a01{
+color:rgb(72,238,248)}
+}
+
+    </style>
+</head>
+<body class="bg-white">
+       <div class="row nav"> 
+        <ul>
+         <li class="col-xs-2 col-sm-2 col-md-1"> <a class="color" href="../html5/Brand.html" target="_blank">Brand</a></li>
+         <li class="col-xs-2 col-sm-2 col-md-1"> <a class="color" href="../html5/Browse.html" target="_blank">browse</a></li>
+         <li class="col-xs-2 col-sm-2 col-md-7"></li>
+         <li class="col-xs-2 col-sm-2 col-md-1"> <a  class="color" href="#">signup</a></li>
+         <li class="col-xs-2 col-sm-2 col-md-1"> <a  class="color" href="#">LogIn</a></li>
+         <li class="col-xs-2 col-sm-2 col-md-1"> <a  class="color" href="#"> Help</a></li>
+        </ul>
+      </div> 
+     
+     <div class="row banner">
+     <div class="col-xs-12 col-sm-12 col-md-12 imgbanner text-rgb(255,255,255)">
+          <h1 class="imgbanner1 font-weight-bold"> Find a place to stay.</h1>
+          <br>
+          <p class="imgbanner2">Rent from people in over 34,000 cities and 192 countries.</p>
+    </div>
+     </div>
+    <div class="row" id="section">
+        <div class="col-xs-12 col-sm-12 col-md-12">
+            <h2>Neighborhood Guides</h2>
+            <p>Not sure where to stay? We've created Neighborhood guides for cities all around the World.</p>
+        </div>
+         <div class="col-xs-12 col-sm-5 col-md-4" >
+                  <img src="../img/image00.png" alt="anh_01" />
+               <br>
+               <br>
+                  <img  src="../img/image02.png" alt="anh_02" />
+         </div>
+         <div class="col-xs-12 col-sm-5 col-md-4" >
+                  <img src="../img/image01.png" alt="anh_03"/>
+               <br>
+               <br>
+                   <img src="../img/image03.png" alt="anh_04"/>
+         </div>
+            <div class="col-xs-12 col-sm-5 col-md-4"> 
+                  <img src="../img/image05.png" alt="anh_05" />
+         </div> 
+
+         </div> 
+    </div>
+    <div class="row" id="footer">
+        <div class="col-xs-12 col-sm-12 col-md-4">
+         <h4>Travel</h4>
+         <p> From apartments and rooms to treehouse and boats: stay in unique spaces in 192 countries.</p>
+         <a class="text-inforinfor" href="#" id="a01">See how to travel on Airbnb</a>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-4">
+          <h4>Host</h4>
+          <p>Renting out your unused space could pay your bills or fund your next vacation.</p>
+          <a  class="text-info" href="#" id="a01"> Learn more about hosting</a>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-4"> 
+           <h4>Trust and Safety</h4>
+           <p>From Verified ID to our worldwiwe customer support team,We've got your back.</p>
+           <a class="text-info" href="#" id="a01" >Learn about trust at Airbnb</a>
+        </div>
+    </div>
+
+   
+</body>
+</html>

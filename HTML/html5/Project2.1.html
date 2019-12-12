@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> assigment2</title>
+    <meta charset="UTF-8"/>
+    <link href="../css/project2.1.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Jomolhari|Spectral&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="menu">
+      <ul class="ul1">
+        <li id="li1"> <a href="../html5/Brand.html" target="_blank">Brand</a></li>
+        <li id="li1"> <a href="../html5/Browse.html" target="_blank">browse</a></li>
+      </ul>
+      <ul class="ul2">
+        <li id="li2"> <a href="#">sign up</a></li>
+        <li id="li2"> <a href="#">Log In</a></li>
+        <li id="li2"> <a href="#"> Help</a></li>
+      </ul>
+      </div>
+    <div class="header">
+        <div class="content">
+          <h1> Find a place to stay.</h1>
+          <p>Rent from people in over 34,000 cities and 192 countries.</p>
+        </div> 
+    </div>
+    <div class="section">
+        <div class="image">
+         <h2 id="head01">Neighborhood Guides</h2>
+        <p id="para01">Not sure where to stay? We've created Neighborhood guides for cities all around the World.</p>
+        </div>
+        <div class="column">
+           <div class="column1">
+               <div id="img1">
+              <img src="../img/image00.png" alt="anh_01" />
+              </div>
+              <div id="img2">
+               <img  src="../img/image02.png" alt="anh_02" />
+               </div>
+          </div>
+          <div class="column1">
+                <div id="img1">
+               <img src="../img/image01.png" alt="anh_03"  />
+            </div>
+               <div id="img2">
+                <img src="../img/image03.png" alt="anh_04" />
+            </div>
+          </div>
+      <div class="column1"> 
+             <img src="../img/image05.png" alt="anh_05" />
+          </div>
+        </div>
+          
+        
+    </div>
+    
+    <div class="footer">
+        <div class="box">
+         <h4>Travel</h4>
+         <p> From apartments and rooms to treehouse and boats: stay in unique spaces in 192 countries.</p>
+         <a href="#" id="a01">See how to travel on Airbnb</a>
+        </div>
+        <div class="box">
+          <h4>Host</h4>
+          <p>Renting out your unused space could pay your bills or fund your next vacation.</p>
+          <a  href="#" id="a01"> Learn more about hosting</a>
+        </div>
+        <div class="box"> 
+           <h4>Trust and Safety</h4>
+           <p>From Verified ID to our worldwiwe customer support team,We've got your back.</p>
+           <a href="#" id="a01" >Learn about trust at Airbnb</a>
+        </div>
+    </div>
+
+    
+</body>
+</html>
